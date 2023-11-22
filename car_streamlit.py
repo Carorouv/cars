@@ -70,7 +70,7 @@ st.pyplot(distrib_puissance)
 
 
 distrib_cylindree = plt.figure(figsize=(10, 4))
-sns.violinplot(data= df_cars, x="continent", y="cylinders", showfliers = False)
+sns.violinplot(data= df_cars, x="continent", y="cylinders")
 plt.title("Distribution des cylindrées des voitures")
 st.pyplot(distrib_cylindree)
 
